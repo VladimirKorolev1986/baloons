@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #777777;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 50px;
+}
+
+.container {
+  background-color: #F7F7F7;
+}/*# sourceMappingURL=style.css.map */
