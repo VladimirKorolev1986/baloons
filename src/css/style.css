@@ -19,7 +19,44 @@ body {
 }
 
 .header {
+  position: relative;
   height: 95vh;
   background: linear-gradient(90deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url(../img/header-image.jpg) center/cover no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
-}/*# sourceMappingURL=style.css.map */
+}
+.header__logo {
+  position: absolute;
+  height: 70px;
+  width: 56px;
+  top: 50px;
+  left: 50px;
+}
+.header__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.title-first {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.title-first__main {
+  display: block;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 10px;
+}
+.title-first__secondary {
+  display: block;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 5px;
+}
+
+@keyframes leftToRight {}/*# sourceMappingURL=style.css.map */
